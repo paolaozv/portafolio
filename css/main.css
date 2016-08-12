@@ -1,0 +1,190 @@
+/* Tu CSS va aqui */
+body {
+	box-sizing: border-box;
+}
+
+.white {
+	color: #FFF;
+}
+
+.img-100 {
+  	width: 100% !important;
+}
+
+.mb-0{
+	margin-bottom: 0 !important;
+}
+
+.cover {
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.background {
+	background-image: url("../img/header.jpg");
+	height: 700px;
+}
+
+.box {
+	margin-top: 18%;
+}
+
+.box h1 {
+	font-size: 55px;
+}
+
+.box p {
+	margin-top: 1%;
+}
+
+.box .boton {
+	margin-top: 1%;
+}
+
+.linea {
+	border-bottom: 2px solid #F05F40;
+	width: 4%;
+	margin: auto;
+}
+
+.info {
+	background-color: #F05F40;
+	height: 300px;
+	width: 100%;
+}
+
+nav h4 {
+	color: #F05F40;
+}
+
+.boton {
+	border: none;
+	border-radius: 60px;
+	background-color: #F05F40;
+	width: 126px;
+	height: 50px;
+}
+
+.info {
+	padding-top: 5%;
+}
+
+.linea-info {
+	border-bottom: 2px solid #FFF;
+	width: 4%;
+	margin: auto;
+	margin-bottom: 1%;
+}
+
+.servicios {
+	padding: 4%;
+}
+
+.servicios .plantilla {
+	margin-top: 18%;
+}
+
+i {
+	font-size: 380%;
+	color: #F05F40;
+}
+
+.plantilla h4 {
+	margin-top: 7%;
+}
+
+.box-img {
+	height: 300px;
+}
+
+.img-1 {
+	background-image: url(../img/1.jpg);
+}
+
+.img-2 {
+	background-image: url(../img/2.jpg);
+}
+
+.img-3 {
+	background-image: url(../img/3.jpg);
+}
+
+.img-4 {
+	background-image: url(../img/4.jpg);
+}
+
+.img-5 {
+	background-image: url(../img/5.jpg);
+}
+
+.img-6 {
+	background-image: url(../img/6.jpg);
+}
+
+.box-fotos {
+	padding: 0;
+}
+
+.github {
+	background-color: #222222;
+	height: 200px;
+	padding-top: 4%;
+}
+
+.github p {
+	font-size: 190%;
+}
+
+.boton-github {
+	border: none;
+	border-radius: 60px;
+	background-color: #FFF;
+	width: 150px;
+	height: 50px;
+}
+
+footer {
+	height: 450px;
+	padding-top: 8%;
+}
+
+footer .linea {
+	margin-top: 3%;
+}
+
+footer p {
+	margin-top: 2%;
+}
+
+.box-datos {
+	margin-top: 4%;
+}
+
+.box-datos span {
+	font-size: 200%;
+}
+
+.box-datos a {
+	display: block;
+	color: #F95353;
+}
+
+.orange {
+	display: none;
+	width: 100%;
+	height: 100%;
+	padding-top: 28%;
+	background-color: rgba(219, 88, 60, 0.4);
+}
+
+.box-img:hover .orange {
+	display: block;
+}
+
+li a:hover {
+	color: #F05F40 !important;
+}
+
+.boton:hover {
+	background-color: rgba(240, 95, 64, 0.7);
+}
